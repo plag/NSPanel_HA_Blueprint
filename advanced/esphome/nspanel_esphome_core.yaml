@@ -35,7 +35,6 @@ external_components:
 esphome:
   name: ${name}
   friendly_name: ${friendly_name}
-  min_version: 2023.12.0
   platformio_options:
     build_flags:
       - -Wno-missing-field-initializers
